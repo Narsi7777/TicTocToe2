@@ -1,6 +1,8 @@
-import React,{useState,useEffect} from "react"
-const redCross="/cross4.jpeg";
-const blueCircle="/blue2.jpeg";
+import React,{useState,useEffect} from "react";
+import redCross from "./cross4.jpeg"
+// const redCross="/cross4.jpeg";
+import blueCircle from "./blue2.jpeg";
+// const blueCircle="./blue2.jpeg";
 const user1Properties={backgroundImage:`url(${redCross})`, backgroundPosition:"center",backgroundSize: "contain"}
 const user2Properties={backgroundImage:`url(${blueCircle})`, backgroundPosition:"center",backgroundSize: "contain",backgroundRepeat:"no-repeat"};
 function Game(){
